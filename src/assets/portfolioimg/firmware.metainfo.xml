@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="firmware">
+  <id>com.dell.uefi5436e16d.firmware</id>
+  <name>Vostro 3400, Inspiron 3501, Vostro 3500</name>
+  <summary>Firmware for the Dell Vostro 3400, Inspiron 3501, Vostro 3500</summary>
+  <description>
+    <p>Updating the system firmware improves performance.</p>
+  </description>
+  <provides>
+    <firmware type="flashed">5436e16d-4788-6c95-22d6-e5a0c1f9935a</firmware>
+  </provides>
+  <url type="homepage">http://support.dell.com/</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <categories>
+    <category>X-System</category>
+  </categories>
+  <custom>
+    <value key="LVFS::VersionFormat">quad</value>
+    <value key="LVFS::VersionFormat">dell-bios</value>
+    <value key="LVFS::UpdateProtocol">org.uefi.capsule</value>
+  </custom>
+  <releases>
+    <release version="0x10d00" date="2022-03-16" urgency="critical">
+      <checksum type="sha1" filename="firmware.bin" target="content">962bc9966e99434471301841b8f34fad828ea917</checksum>
+      <checksum type="sha256" filename="firmware.bin" target="content">a18516adb317cefeb2d2acdf2013dbe6c3128d5b441d1910149d31efbd7df96a</checksum>
+      <description>
+        <p>Fixes and Enhancements External</p>
+        <ul>
+          <li>Firmware updates to address security vulnerabilities.</li>
+        </ul>
+      </description>
+      <size type="installed">17786734</size>
+      <artifacts>
+        <artifact type="binary">
+          <filename>firmware.bin</filename>
+          <checksum type="sha1">962bc9966e99434471301841b8f34fad828ea917</checksum>
+          <checksum type="sha256">a18516adb317cefeb2d2acdf2013dbe6c3128d5b441d1910149d31efbd7df96a</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+  </releases>
+</component>
